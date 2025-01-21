@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    background: linear-gradient(90deg, rgba(52, 8, 8, 1) 0%, rgba(16, 2, 2, 1) 100%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+header span {
+    background-color: #ffb000;
+    width: 10%;
+    height: 10%;
+    padding: 5%;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: -5%;
+}
+
+header .logo img{
+    width: 30%;
+}
+
+header .leave{
+    width: 10%;
+    position: absolute;
+    right: 40%;
+}
+
+header .menu{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    background-color: #ffb000;
+    padding: 1% 0.5% 1% 0.5%;
+    border-radius: 20%; 
+}
+
+header .menu a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.2rem;
+}
+
+main .name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main .name h1{
+    color: #ffb000;
+    font-size: "Anton", sans-serif;
+    font-size: 10rem;
+    text-transform: uppercase;
+}
+
+main .name img{
+    width: 40%;
+}
